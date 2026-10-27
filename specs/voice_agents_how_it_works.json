@@ -1,0 +1,120 @@
+{
+  "id": "voice_agents_how_it_works",
+  "title": "How an AI voice agent answers a support call",
+  "format": "how_it_works",
+  "style": "print",
+  "channel": "instagram",
+  "brand": "brand/brand.json",
+  "facts": "facts/voice_agents.md",
+  "cta": {
+    "keyword": "DEMO",
+    "line": "Comment DEMO for a live walkthrough"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "start": 0.0,
+      "end": 2.37,
+      "text": "Your support line never sleeps again.",
+      "emphasis": "never",
+      "chapter": "01 - the hook",
+      "theme": "light",
+      "scene": "hook_title",
+      "props": {
+        "title": "ALWAYS ON",
+        "tag": "AI VOICE AGENT"
+      }
+    },
+    {
+      "id": "promise",
+      "start": 2.37,
+      "end": 5.95,
+      "text": "An AI voice agent answers every call, day and night.",
+      "emphasis": "every",
+      "chapter": "01 - the hook",
+      "theme": "light",
+      "claims": [
+        "F1"
+      ],
+      "scene": "statement",
+      "props": {
+        "title": "24/7",
+        "sub": "No hold music. No missed calls."
+      }
+    },
+    {
+      "id": "steps",
+      "start": 5.95,
+      "end": 10.46,
+      "text": "It works in four steps: listen, understand, respond, hand off.",
+      "emphasis": "four",
+      "chapter": "02 - how it works",
+      "progress": "STEPS 4/4",
+      "theme": "light",
+      "claims": [
+        "F2"
+      ],
+      "scene": "checklist",
+      "props": {
+        "title": "How it works",
+        "items": [
+          "Listen",
+          "Understand",
+          "Respond",
+          "Hand off"
+        ]
+      }
+    },
+    {
+      "id": "myth",
+      "start": 10.46,
+      "end": 14.57,
+      "text": "You might think it sounds robotic. It sounds like your best agent.",
+      "emphasis": "robotic",
+      "chapter": "03 - the myth",
+      "theme": "dark",
+      "scene": "myth_card",
+      "props": {
+        "number": 1,
+        "myth": "It sounds robotic",
+        "truth": "It sounds like your best agent"
+      }
+    },
+    {
+      "id": "proof",
+      "start": 14.57,
+      "end": 17.61,
+      "text": "Complex calls go to a person in 3 seconds.",
+      "emphasis": "person",
+      "chapter": "04 - the proof",
+      "theme": "dark",
+      "claims": [
+        "F3"
+      ],
+      "scene": "counter",
+      "props": {
+        "value": 3,
+        "suffix": "s",
+        "label": "to reach a human"
+      }
+    },
+    {
+      "id": "cta",
+      "start": 17.61,
+      "end": 21.63,
+      "text": "Comment DEMO and we will send you a walkthrough.",
+      "emphasis": "DEMO",
+      "chapter": "05 - your turn",
+      "theme": "accent",
+      "scene": "cta",
+      "props": {
+        "sub": "We will DM you the link"
+      }
+    }
+  ],
+  "voice": {
+    "file": "work/voice_agents_how_it_works/voice/vo.wav",
+    "provider": "kokoro:am_michael",
+    "words": "work/voice_agents_how_it_works/voice/words.json"
+  }
+}

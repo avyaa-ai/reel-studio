@@ -1,0 +1,29 @@
+{
+  "_note": "PLACEHOLDER VALUES - replace with the DEQX palette, fonts and logo before the pilot. The engine reads only this file for brand settings.",
+  "name": "DEQX",
+  "handle": "@deqx",
+  "colors": {
+    "ground": "#F4F1EA",
+    "ink": "#121212",
+    "muted": "#8A8780",
+    "dark": "#111214",
+    "dark_ink": "#F4F1EA",
+    "accent": "#E8400F",
+    "accent_ink": "#121212"
+  },
+  "fonts": {
+    "display": "Inter, 'Helvetica Neue', Arial, sans-serif",
+    "emphasis": "Georgia, 'Times New Roman', serif",
+    "mono": "'JetBrains Mono', 'Courier New', monospace"
+  },
+  "logo_text": "DEQX",
+  "logo_file": null,
+  "caption": {
+    "words_per_second_max": 4.5,
+    "emphasis_style": "italic serif in accent colour"
+  },
+  "audio": {
+    "target_lufs": -14,
+    "music_under_voice_db": -18
+  }
+}

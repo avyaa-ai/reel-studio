@@ -1,0 +1,15 @@
+{
+  "aspect": "9:16",
+  "min_width": 1080,
+  "duration_s": [15, 90],
+  "hook_visual_s": 1.5,
+  "hook_speech_s": 1.0,
+  "motion_min": 6.0,
+  "big_moments_per_s_min": 0.65,
+  "flat_pct_max": 27,
+  "min_flat_s": 0.3,
+  "longest_flat_s_max": 1.5,
+  "lufs": [-16, -12],
+  "true_peak_max_db": -1.0,
+  "max_silence_s": 0.7
+}

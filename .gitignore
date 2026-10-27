@@ -1,0 +1,10 @@
+﻿engine/node_modules/
+work/
+exports/*.mp4
+tools/models/*.onnx
+tools/models/*.bin
+raw_footage/*
+!raw_footage/.gitkeep
+facts/ai_transformation_files/
+.DS_Store
+*.log

@@ -1,0 +1,21 @@
+{
+  "name": "reel-studio-engine",
+  "private": true,
+  "type": "module",
+  "description": "Reel Studio: reel spec -> HyperFrames composition -> MP4",
+  "scripts": {
+    "check": "cd .. && node engine/build.mjs",
+    "build": "cd .. && node engine/build.mjs",
+    "storyboard": "cd .. && bash engine/storyboard.sh",
+    "render": "cd .. && bash engine/render.sh",
+    "doctor": "hyperframes doctor"
+  },
+  "dependencies": {
+    "ajv": "8.20.0",
+    "gsap": "3.13.0",
+    "hyperframes": "0.8.207"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
